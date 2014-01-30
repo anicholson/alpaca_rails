@@ -11,7 +11,12 @@ Gem::Specification.new do |s|
   s.email       = ['andrew@anicholson.net']
   s.homepage    = 'http://github.com/anicholson/alpaca_rails'
   s.summary     = "Provide the Alpaca JS library to the Rails Asset Pipeline"
-  s.description = "Provide the Alpaca JS library to the Rails Asset Pipeline"
+  s.description = <<-EODESC
+                  Provides the Alpaca JS library + its CSS to the Rails Asset Pipeline
+                  via a Rails Engine. 
+  EODESC
+
+  s.license    = "Apache 2"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
